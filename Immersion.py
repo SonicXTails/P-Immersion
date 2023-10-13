@@ -137,7 +137,7 @@ def play_sound(mp3):
 
 """Красивый вывод (побуквенный)"""
 """delay=0.07"""
-def printd(text, delay=0):
+def printd(text, delay=0.07):
     from time import sleep
     for char in text:
         print(char, end='')
